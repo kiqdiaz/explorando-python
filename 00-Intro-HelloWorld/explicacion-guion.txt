@@ -1,0 +1,144 @@
+# Explicación del Guión - Animaciones y Visuales
+
+## SEGMENTO 1: INTRODUCCIÓN (2-3 min)
+**Visuales:**
+- Logo del curso de Python
+- Transición suave a pantalla del presentador
+- Overlay con título del episodio
+- Animación de texto: "Configuración del Entorno"
+
+**Animaciones:**
+- Fade in del logo
+- Texto animado con typewriter effect
+- Iconos de herramientas (VS Code, Python, uv) apareciendo
+
+## SEGMENTO 2: PREGUNTA DEL DÍA (1 min)
+**Visuales:**
+- Pantalla dividida: pregunta en texto grande
+- Iconos de entornos virtuales
+- Gráfico simple mostrando conflictos de dependencias
+
+**Animaciones:**
+- Zoom in a la pregunta principal
+- Iconos rotando suavemente
+- Highlight en palabras clave
+
+## SEGMENTO 3: EXPLICACIÓN TEÓRICA (5-7 min)
+
+### VS Code
+**Visuales:**
+- Captura de pantalla de VS Code limpio
+- Marketplace de extensiones
+- Árbol de archivos expandido
+- Terminal integrado
+
+**Animaciones:**
+- Navegación fluida por la interfaz
+- Instalación de extensiones en tiempo real
+- Highlight de características importantes
+- Split screen comparando antes/después
+
+### Entornos Virtuales
+**Visuales:**
+- Diagrama conceptual de aislamiento
+- Comparación visual pip vs uv
+- Gráfico de velocidad de instalación
+- Estructura de directorios
+
+**Animaciones:**
+- Diagrama animado de dependencias
+- Barras de progreso comparativas
+- Transiciones entre conceptos
+- Iconos de check/error para buenas prácticas
+
+## SEGMENTO 4: DESARROLLO PRÁCTICO (15-20 min)
+
+### Configuración Inicial
+**Visuales:**
+- Pantalla completa de terminal
+- VS Code en modo split con terminal
+- Indicadores de progreso de instalación
+- Confirmaciones visuales de éxito
+
+**Animaciones:**
+- Typing effect en comandos
+- Progress bars reales de instalación
+- Checkmarks apareciendo
+- Smooth scrolling en terminal
+
+### Demostración de Entornos
+**Visuales:**
+- Terminal con comandos resaltados
+- Comparación lado a lado virtualenv vs uv
+- Cronómetro para medir velocidad
+- Estructura de archivos creados
+
+**Animaciones:**
+- Comandos ejecutándose en tiempo real
+- Timer animado
+- Archivos apareciendo en explorer
+- Transiciones entre métodos
+
+### Casos Hello World
+**Visuales:**
+- Editor de código con syntax highlighting
+- Output de consola
+- Debugger en acción
+- Variables siendo inspeccionadas
+
+**Animaciones:**
+- Código escribiéndose línea por línea
+- Breakpoints activándose
+- Variables expandiéndose
+- Ejecución paso a paso
+
+## SEGMENTO 5: CONCLUSIÓN (2-3 min)
+**Visuales:**
+- Resumen visual de herramientas instaladas
+- Checklist de objetivos cumplidos
+- Preview del próximo episodio
+- Call-to-action con enlaces
+
+**Animaciones:**
+- Checkmarks apareciendo secuencialmente
+- Fade out suave
+- Transición al preview
+- Botones de suscripción animados
+
+## ELEMENTOS TÉCNICOS PARA GRABACIÓN:
+
+### Configuración de Pantalla:
+- Resolución: 1920x1080 mínimo
+- VS Code con tema oscuro para mejor contraste
+- Terminal con fuente grande y legible
+- Zoom apropiado para visualización móvil
+
+### Audio:
+- Narración clara y pausada
+- Sonidos de notificación para éxitos
+- Música de fondo sutil durante demostraciones
+- Silencio durante ejecución de comandos largos
+
+### Transiciones:
+- Fade in/out entre secciones
+- Wipe effects para cambios de pantalla
+- Zoom in para detalles importantes
+- Split screen para comparaciones
+
+### Overlays y Gráficos:
+- Títulos de sección en esquina superior
+- Comandos destacados en cajas de texto
+- Flechas apuntando a elementos importantes
+- Timers para medición de velocidad
+
+### Errores Comunes a Mostrar:
+- Extensión de Python no instalada
+- Entorno virtual no activado
+- Conflictos de dependencias
+- Problemas de permisos
+
+### Soluciones Visuales:
+- Pasos de troubleshooting animados
+- Antes/después de correcciones
+- Mensajes de error reales
+- Comandos de solución resaltados

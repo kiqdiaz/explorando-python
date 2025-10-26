@@ -1,0 +1,103 @@
+# Guión del Capítulo: Hello World - Configuración del Entorno de Desarrollo
+
+## 1. INTRODUCCIÓN (2-3 minutos)
+¡Hola y bienvenidos a nuestro curso de Python! Soy [nombre] y en esta serie vamos a aprender Python desde cero hasta proyectos avanzados.
+
+Hoy comenzamos con lo más fundamental: configurar nuestro entorno de desarrollo. Antes de escribir una sola línea de código, necesitamos tener las herramientas correctas.
+
+## 2. PREGUNTA DEL DÍA (1 minuto)
+**"¿Cómo vamos a crear nuestro entorno virtual para la mayoría de las clases?"**
+
+Esta es una pregunta crucial porque:
+- Evita conflictos entre proyectos
+- Mantiene dependencias organizadas
+- Facilita la colaboración en equipo
+- Es una práctica profesional estándar
+
+## 3. EXPLICACIÓN: QUÉ VAMOS A UTILIZAR Y POR QUÉ (5-7 minutos)
+
+### 3.1 VS Code como IDE Principal
+**¿Por qué VS Code?**
+- Gratuito y de código abierto
+- Excelente soporte para Python
+- Extensiones potentes
+- Integración con Git
+- Debugging visual
+- Conexión remota por SSH
+
+**¿Cómo lo vamos a utilizar?**
+- Navegación eficiente con el árbol de archivos
+- Instalación de extensiones esenciales
+- Configuración de debugging
+- Uso de terminal integrado
+
+### 3.2 Gestión de Entornos Virtuales
+**¿Por qué entornos virtuales?**
+- Aislamiento de dependencias
+- Evitar conflictos de versiones
+- Reproducibilidad de proyectos
+- Limpieza del sistema principal
+
+**Herramientas que compararemos:**
+- **virtualenv**: Método tradicional, ampliamente usado
+- **uv**: Framework moderno, más rápido y eficiente
+
+### 3.3 Framework uv
+**¿Por qué uv?**
+- 10-100x más rápido que pip
+- Gestión completa de proyectos
+- Resolución inteligente de dependencias
+- Compatible con estándares Python
+
+## 4. DESARROLLO PRÁCTICO: SIGUIENDO LA GUÍA MD (15-20 minutos)
+
+### 4.1 Configuración Inicial
+- Instalación de VS Code y extensiones
+- Verificación de Python instalado
+- Configuración del workspace
+
+### 4.2 Creación de Entornos
+**Demostración con virtualenv:**
+```bash
+python -m venv venv_demo
+source venv_demo/bin/activate
+```
+
+**Demostración con uv:**
+```bash
+uv init hello-world-project
+cd hello-world-project
+uv venv
+```
+
+### 4.3 Casos Hello World
+**Caso 1 - Básico:** Mostrar simplicidad de Python
+**Caso 2 - Intermedio:** Introducir funciones
+**Caso 3 - Avanzado:** Clases y mejores prácticas
+
+### 4.4 Flujo de Trabajo Completo
+- Crear proyecto desde cero
+- Gestionar dependencias
+- Ejecutar y depurar código
+- Documentar el proceso
+
+## 5. CONCLUSIÓN Y PRÓXIMOS PASOS (2-3 minutos)
+Hemos establecido las bases fundamentales:
+- Entorno de desarrollo configurado
+- Herramientas modernas instaladas
+- Flujo de trabajo establecido
+- Primeros programas ejecutados
+
+En el próximo capítulo usaremos este mismo entorno para explorar variables, tipos de datos y estructuras básicas de Python.
+
+**Llamada a la acción:**
+- Practicar con los ejercicios del laboratorio
+- Configurar su propio entorno
+- Compartir dudas en los comentarios
+
+## NOTAS TÉCNICAS PARA GRABACIÓN:
+- Mostrar pantalla completa de VS Code
+- Usar terminal visible
+- Destacar extensiones instaladas
+- Comparar velocidad uv vs pip
+- Capturar errores comunes y soluciones
